@@ -1,6 +1,6 @@
 # README
 
-This repository contains the **Python code** and **dataset** associated with our journal article. It provides the scripts used for data processing, training machine learning models, and evaluating their performance. Additionally, it includes the specific case study dataset (`concrete.csv`) analyzed in the paper.
+This repository contains the **Python code** and **dataset** associated with our article. It provides the scripts used for data processing, training machine learning models, and evaluating their performance. Additionally, it includes the specific case study dataset (`concrete.csv`) analyzed in the paper.
 
 The materials here enable readers to reproduce, validate, and further explore the methods and results presented in our article.
 
