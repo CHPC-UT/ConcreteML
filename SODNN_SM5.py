@@ -26,31 +26,22 @@ from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error as
 # sys.path.append("path/to/dnntorch")
 
 from dnntorch import Net
+import SODNN_SM5_Settings as settings
 
 # ----------------------------- USER CONFIG -----------------------------
-DATASET_CSV_PATH = "concrete.csv"
-TARGET_COLUMN = "flow"  # Name of the single target column in your CSV
-Other_target_columns = ['slump','comp_strength'] # Name of 
-STATE = ["train",'test']           # "train" -> Hyperparameter tuning, "test" -> Evaluate final
-NAME_OF_THIS_STUDY = "SODNN_SM5_study"
+DATASET_CSV_PATH = settings.DATASET_CSV_PATH  
+TARGET_COLUMN = settings.TARGET_COLUMN  
+Other_target_columns = settings.Other_target_columns  
+STATE= settings.STATE  
+NAME_OF_THIS_STUDY = settings.NAME_OF_THIS_STUDY
+OUTER_N_SPLITS = settings.OUTER_N_SPLITS
+INNER_N_SPLITS = settings.INNER_N_SPLITS
+OPTUNA_NUM_TRIALS = settings.OPTUNA_NUM_TRIALS
+RANDOM_STATE_SEED = settings.RANDOM_STATE_SEED
+EARLY_STOPPING_PATIENCE = settings.EARLY_STOPPING_PATIENCE
+EARLY_STOPPING_MIN_DELTA = settings.EARLY_STOPPING_MIN_DELTA
+MAX_EPOCH = settings.MAX_EPOCH
 
-# Outer and inner folds for nested CV
-OUTER_N_SPLITS = 10
-INNER_N_SPLITS = 5
-
-# Number of Optuna trials per outer fold
-OPTUNA_NUM_TRIALS = 10
-
-# Random seed
-RANDOM_STATE_SEED = 42
-
-# Early stopping parameters
-
-EARLY_STOPPING_PATIENCE = 50
-EARLY_STOPPING_MIN_DELTA = 1
-
-# Max epochs for training
-MAX_EPOCH = 2000
 
 # -------------------------- LOAD & PREPARE DATA -------------------------
 """
