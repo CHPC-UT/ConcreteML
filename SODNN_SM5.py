@@ -31,7 +31,7 @@ import SODNN_SM5_Settings as settings
 # ----------------------------- USER CONFIG -----------------------------
 DATASET_CSV_PATH = settings.DATASET_CSV_PATH  
 TARGET_COLUMN = settings.TARGET_COLUMN  
-Other_target_columns = settings.Other_target_columns  
+Other_target_columns = settings.OTHER_TARGET_COLUMNS
 STATE= settings.STATE  
 NAME_OF_THIS_STUDY = settings.NAME_OF_THIS_STUDY
 OUTER_N_SPLITS = settings.OUTER_N_SPLITS
