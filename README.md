@@ -35,7 +35,7 @@ If you use this code in your research, please cite our article as follows:
 | **volume**  | `1`                          |
 | **year**    | `2025`                       |
 | **publisher** | `Springer`                |
-| **doi**     | `https://doi.org/10.1007/s44379-025-00021-3`         |
+| **doi**     | `[DOI](https://doi.org/10.1007/s44379-025-00021-3)`         |
 
 
 ## Contact
