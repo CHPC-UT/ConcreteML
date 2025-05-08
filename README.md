@@ -32,12 +32,10 @@ If you use this code in your research, please cite our article as follows:
 | **author**  | `Hossein Babaei, Mohammad Zamani, Soheil Mohammadi`   |
 | **title**   | `The Impact of Data Splitting Methods on Machine Learning Models: A Case Study for Predicting Concrete Workability`         |
 | **journal** | `Machine Learning for Computational Science and Engineering`               |
-| **volume**  | `X`                          |
-| **number**  | `Y`                          |
-| **pages**   | `Z--Z`                       |
+| **volume**  | `1`                          |
 | **year**    | `2025`                       |
 | **publisher** | `Springer`                |
-| **doi**     | `---`         |
+| **doi**     | `https://doi.org/10.1007/s44379-025-00021-3`         |
 
 
 ## Contact
